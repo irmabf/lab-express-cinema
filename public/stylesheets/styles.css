@@ -32,3 +32,24 @@ a {
   color: #fff;
   padding-bottom: 4%;
 }
+
+.card-img {
+  max-width: 100%;
+}
+
+header {
+  text-align: center;
+  padding: 2.5% 0;
+}
+
+.card {
+  margin-bottom: 16px;
+}
+.card-header {
+  text-align: center;
+  border: none;
+}
+
+.btn.btn-dark {
+  font-size: 12px;
+}
