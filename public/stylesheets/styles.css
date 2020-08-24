@@ -1,0 +1,34 @@
+body {
+  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.cover {
+  display: flex;
+  align-items: center;
+  flex-flow: row-reverse;
+  height: 100vh;
+  background: url("/images/cinema.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cover-container {
+  padding-right: 10%;
+}
+
+.cover-button {
+  padding: 6px 10px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.cover-title {
+  color: #fff;
+  padding-bottom: 4%;
+}
